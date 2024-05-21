@@ -4,90 +4,83 @@
   <br />
 
 
- ![GitHub repo size](https://img.shields.io/github/repo-size/yazansedih/UDP-File-Transfer) ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/yazansedih/UDP-File-Transfer) ![NPM Version](https://img.shields.io/npm/v/npm) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yazansedih/UDP-File-Transfer/main)
+ ![GitHub repo size](https://img.shields.io/github/repo-size/yazansedih/UDP-File-Transfer) 
+ ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/yazansedih/UDP-File-Transfer) 
+ [![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/yazansedih/UDP-File-Transfer/releases/tag/v1.0.0)
+ ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yazansedih/UDP-File-Transfer/main)
  
 </div>  
 
 <h1>UDPFileTransfer</h1>
-UDPFileTransfer - a platform that connects individuals through collaborative craft projects, it connects people with the joy of hands-on 
-creation and foster meaningful connections through collaborative craft projects. This platform, a backend API built with Node.js, was developed to provide a robust framework for user interaction, data collection, and facilitating the completion of craft projects.
+UDPFileTransfer - a Java-based application designed for transferring files using the UDP protocol. It ensures efficient and reliable file transfer through packetization and checksum validation, featuring a user-friendly GUI for both client and server operations.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Project Folders](#project-folders)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [API Documentation](#api-documentation)
-- [Testing](#testing)
+- [Getting Started](#installation)
+- [Contributing](#contributing)
+- [Demo](#demo)
 - [Vision](#vision)
-
-
-## Introduction
-
-CommuniCraft serves as a robust backend API designed to handle craft projects data collection, user profile management, local partnership integration, community reporting, supporting companies
-, resources provision, seeing finished projects and benefiting from them. It's a platform aimed at fostering connections and creativity through collaborative craft projects.
 
 ## Project Folders
 
-<img width="197" alt="folders" src="https://github.com/yazansedih/CommuniCraft1/assets/137224224/02804294-c395-4c73-af4e-ba6f2fc8f510">
+<img width="197" alt="folders" src="https://github.com/yazansedih/UDP-File-Transfer/assets/137224224/cd1c0ce0-7383-46bf-a0e4-ca6ff320b9b0">
 
 ## Features
 
-### Main Features:
-
-1. **Project Library:**  A curated collection of craft projects ranging from beginner to advanced, categorized by skills, materials, and group size. 
-2. **Skill Matching:** Users create profiles showcasing their craft skills and interests, facilitating connections with others seeking collaborators.
-3. **Collaborative Planning:** Integrated communication tools and project planning features allow teams to coordinate, share ideas, and assign tasks.
-4. **Resource Sharing:** Users can list available materials and tools, promoting resourcefulness and reducing individual costs.
-5. **Showcase and Sharing::** The platform facilitates sharing finished projects, fostering community engagement, and inspiring others. 
-6. **Local Partnership Integration:** Connects users with local craft stores, workshops, and group artisans, and supporting companies, promoting local businesses and knowledge sharing.
-
-### Additional Features:
-
-- **User Privacy and Data Security:** Implement stringent privacy and security measures to protect users' data, and there is Roles.
-- **Communication:** bidirectional communication between all elements in the project, users, craftproject, workshops, groups, companies.
-- **Error Handling and Logging:** The API must implement error handling and logging to help with debugging and troubleshooting.
-- **External API Integration:** Utilized to enhance functionality and supplement data collection.
+- **Reliable File Transfer:** Ensures file integrity using packetization and checksum validation.
+- **User-Friendly GUI:** Intuitive interface for both client and server operations.
+- **Error Handling:** Handles packet loss and retransmissions efficiently.
+- **Cross-Platform:** Runs on any platform that supports Java and JavaFX.
 
 ## Technologies Used
 
-- **Node.js:** Backend development platform.
-- **MySQL:** Database for CRUD operations.
-- **Postman:** API building, testing and documentation tool.
-- **Git:** Version control system.
-- **Axios:** making and managing HTTP requests.
+- **Java:** Core programming language for the application.
+- **JavaFX:** Framework for building the GUI.
+- **FXML:** XML-based language for defining the UI layout.
+- **JFoenix:** Material Design Library for JavaFX.
+- **FontAwesomeFX:** Icon library for JavaFX applications.
 
-## Getting Started
+## Installation
 
 To get started with CommuniCraft API, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yazansedih/CommuniCraft1.git` 
-2. Install dependencies: `npm install`
-3. Configure environment variables.
-4. Setup the database using mysql ( sql code is inside database folder ).
-5. Run the application: `npm start`
+**1. Clone the repository to your local machine:**
 
-## API Documentation
+```
+git clone https://github.com/yourusername/UDP-File-Transfer.git
+```
 
-The API is fully documented using Postman. Access the documentation [here](https://documenter.getpostman.com/view/33029075/2sA35Jyz4p).
+**2. Navigate to the project directory:**
 
-## Testing
+```
+cd UDP-File-Transfer
+```
 
-#### Postman Testing Strategy
+**3. Ensure you have Java Development Kit (JDK) installed on your machine.**
 
-We have employed Postman for comprehensive API testing to ensure the functionality, reliability, and accuracy of the CommuniCraft platform. Our testing strategy involves:
+**3. Build the Project:** Use your preferred IDE to import the project and resolve dependencies, or use Maven/Gradle for building.
+   
+**4. Compile and run the application:**
 
-**Instructions for Testing Using Postman:**
+```
+UDPClient.java // Run UDPClient.java for the client-side application.
+UDPServer.java // Run UDPServer.java for the server-side application.
+```
 
-1. Import the provided Postman collection.
-2. Run collection tests individually or perform a collection run to test various API endpoints.
+## Contributing
+Contributions to UDPFileTransfer are welcome! If you'd like to contribute to the project, please follow these guidelines:
+
+1. Fork the repository and create your branch from main.
+2. Make your changes and ensure the code follows the project's style guidelines.
+3. Test your changes thoroughly.
+4. Create a pull request detailing the changes you've made and the problem or feature it addresses.
 
 #### Demo 
 
-click on the following link to watch the testing [demo video](https://youtu.be/veSFbSqZ7EQ).
+click on the following link to watch the testing [demo video]().
 
 ## Vision
-CommuniCraft seeks to become a platform used in the work of most local and international projects, and to be a catalyst for change and development in this field by facilitating the formation of partnerships and linking all components of the projects.
-
+UDPFileTransfer is to provide a robust and user-friendly tool for transferring files over a network using UDP. Future enhancements may include support for larger files, improved error correction mechanisms, and a more sophisticated UI to handle multiple file transfers simultaneously.
