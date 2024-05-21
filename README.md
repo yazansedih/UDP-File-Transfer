@@ -7,6 +7,7 @@
  ![GitHub repo size](https://img.shields.io/github/repo-size/yazansedih/UDP-File-Transfer) 
  ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/yazansedih/UDP-File-Transfer) 
  [![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/yazansedih/UDP-File-Transfer/releases/tag/v1.0.0)
+ [![Contributors](https://img.shields.io/github/contributors/yazansedih/UDP-File-Transfer)](https://github.com/yazansedih/UDP-File-Transfer/graphs/contributors)
  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/yazansedih/UDP-File-Transfer/main)
  
 </div>  
