@@ -1,0 +1,20 @@
+.l {
+    -fx-text-fill: red;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 18px;
+    -fx-padding: 5px 0 0 10px; /* top right bottom left */
+}
+
+.l1 {
+    -fx-text-fill: blue;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 18px;
+    -fx-padding: 5px 0 0 10px; /* top right bottom left */
+}
+
+.l2 {
+    -fx-text-fill: green;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 18px;
+    -fx-padding: 5px 0 0 10px; /* top right bottom left */
+}

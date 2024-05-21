@@ -1,0 +1,62 @@
+
+.body{
+  -fx-width: 100%;
+  -fx-height: 100%;
+  -fx-background-color: #2a2b38;
+  -fx-background-position: bottom center;
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: 300%;
+  -fx-position: absolute;
+  -fx-border-radius: 6px;
+  -fx-left: 0;
+  -fx-top: 0;
+  -fx-webkit-transform-style: preserve-3d;
+  -fx-transform-style: preserve-3d;
+  -fx-webkit-backface-visibility: hidden;
+  -fx-moz-backface-visibility: hidden;
+  -fx-o-backface-visibility: hidden;
+  -fx-backface-visibility: hidden;
+}
+
+.background-color{
+  -fx-background-color: #0B666A;
+}
+
+.close-color{
+    -fx-background-radius: 1;
+    -fx-text-fill: #CBB279;
+}
+
+.text-color{
+    -fx-text-fill: #ffffff;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 8.0 , .4 , .5 , .5);
+}
+
+.container{
+    -fx-background-color: rgba(255,255,255,0.2);
+    -fx-background-radius: 10;
+}
+
+.ver-button{
+    -fx-text-fill: #fff;
+    -fx-background-radius: 10;
+    -fx-margin: 0 10px;
+}
+
+.ver-button:hover{
+    -fx-background-color: #D9D3CD;
+    -fx-text-fill: #2a2b38;
+}
+
+.close-color:hover{
+    -fx-background-color: #CBB279;
+    -fx-text-fill: #2a2b38;
+}
+
+.start-btn {
+    -fx-opacity: 0.7;
+    -fx-text-fill: gray;
+}
