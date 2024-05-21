@@ -20,7 +20,7 @@ UDPFileTransfer - a Java-based application designed for transferring files using
 - [Project Folders](#project-folders)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#installation)
+- [Installation](#installation)
 - [Contributing](#contributing)
 - [Demo](#demo)
 - [Vision](#vision)
